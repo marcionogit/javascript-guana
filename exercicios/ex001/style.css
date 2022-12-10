@@ -1,0 +1,48 @@
+body{
+    background-color: #3D82D5;
+    margin: 0 auto;
+    max-width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+form{
+    background-color: white;
+ 
+    padding: 10px;
+    border-radius: 4px;
+    box-shadow: 5px 5px 15px #123e74;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+input{
+    display: inline;
+    margin: 10px 0;
+    margin-right: 5px;
+}
+
+#verificar{
+    display: block;
+}
+
+#resultado{
+    text-align: center;
+    font-weight: 600;
+}
+
+img{
+    display: none;
+    border-radius: 50%;
+    margin: 0 auto;
+    max-width: 300px;
+}
+
+.ativado{
+    display: block;
+    width: 100%;
+}
+
+

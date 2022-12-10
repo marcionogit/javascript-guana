@@ -1,0 +1,24 @@
+body, ul{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+#grid-botoes{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    max-width: 300px;
+}
+
+.botoes li{
+    list-style: none;
+    padding: 10px 20px;
+    background-color: lightblue;
+    border: 1px solid rgb(130, 175, 190);
+    box-sizing: border-box;
+    cursor: pointer;
+}
+
+.botoes li:hover{
+    background-color: rgb(186, 233, 248);
+}

@@ -1,0 +1,19 @@
+
+.azul{
+    background-image: linear-gradient(to bottom, green, blue, yellow);
+    background-attachment: fixed;
+}
+
+.brasil{
+    background-image: url(https://www.purarteadesivos.com.br/wp-content/uploads/2021/04/adesivo-personalizado-bandeira-brasil-estilizada-17x9-sticker-cantinho-patriota-pura-arte-adesivos-458x458.png);
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+}
+
+.argentina{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSggEJIebJAKNLgiVeBjg7yz9RxxS20C5luTzcXexwp0tzAZXdJWpy1uLLF5k42czsHirQ&usqp=CAU);
+    width: 1200px;
+    height: 400px;
+    object-fit: cover;
+}

@@ -21,7 +21,9 @@ const imgHomemVelho = document.querySelector('#imghomem-velho');
 
 
 // IMAGENS MULHERES
+const imgMulherJovem = document.querySelector('#imgmulher-jovem')
 const imgMulherAdulta = document.querySelector('#imgmulher-adulta');
+const imgMulherIdosa = document.querySelector('#imgmulher-idosa')
 
 
 // EVENTO DE CLIQUE NO BOTÃO
@@ -44,9 +46,14 @@ verificar.addEventListener('click', function(){
     
     
 // QUAL IMAGEM MOSTRAR SE FOR MULHER
-    else if(idade != 2022 && feminino.checked){
-    resultado.innerHTML = `Você tem ${idade} anos e é uma mulher ${faixaEtaria}`;
-    imgMulher.classList.toggle('ativado');
-    }
-});
+    else if(idade != 2022 && idade >= 65 && feminino.checked){
+        imgMulherIdosa.classList.toggle('ativado');
+        resultado.innerHTML = `Você é uma mulher de ${idade} anos de idade`;
+    } else if(idade != 2022 && idade > 18 && feminino.checked){
+        imgMulherAdulta.classList.toggle('ativado');
+        resultado.innerHTML = `Você é uma mulher de ${idade} anos de idade`;
+    } else if(idade != 2022 && idade <= 18 && feminino.checked){
+        imgMulherJovem.classList.toggle('ativado');
+        resultado.innerHTML = `Você é uma mulher de ${idade} anos de idade`;
+    }});
 
